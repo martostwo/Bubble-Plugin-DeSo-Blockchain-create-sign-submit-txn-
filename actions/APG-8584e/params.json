@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "numToHex",
+    "fields": {
+        "APH": {
+            "caption": "number",
+            "editor": "DynamicValue",
+            "name": "number",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "API": {
+            "caption": "numberHex",
+            "name": "numberHex",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

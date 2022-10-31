@@ -1,0 +1,14 @@
+{
+    "category": "plugins",
+    "display": "Deso: Approve Txn",
+    "fields": {
+        "AOd": {
+            "caption": "txnHex",
+            "editor": "DynamicValue",
+            "name": "txnHex",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

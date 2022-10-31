@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Check post size",
+    "fields": {
+        "ARQ": {
+            "caption": "PostText",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "PostText",
+            "rank": 0,
+            "value": "text"
+        },
+        "ARR": {
+            "caption": "ImageUrl",
+            "editor": "DynamicValue",
+            "name": "ImageUrl",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ARS": {
+            "caption": "maxSizeLimit",
+            "name": "maxSizeLimit",
+            "rank": 0,
+            "value": "boolean"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

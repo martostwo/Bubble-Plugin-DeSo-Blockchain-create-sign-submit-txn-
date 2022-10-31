@@ -1,0 +1,36 @@
+{
+    "category": "plugins",
+    "display": "Get Notion Image",
+    "fields": {
+        "AOf": {
+            "caption": "notionImageUrl",
+            "editor": "DynamicValue",
+            "name": "notionImageUrl",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOg": {
+            "caption": "filename",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AOk": {
+            "caption": "filename",
+            "name": "filename",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOl": {
+            "caption": "contents",
+            "name": "contents",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

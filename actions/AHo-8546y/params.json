@@ -1,0 +1,64 @@
+{
+    "category": "plugins",
+    "display": "Deso: Login, Signup, JWT & Sign Txn",
+    "fields": {
+        "AHp": {
+            "caption": "AccessLevel",
+            "doc": "This field is only necessary if \"action\" is sign.",
+            "editor": "DynamicValue",
+            "name": "accesslevel",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AHq": {
+            "caption": "AccessLevelHmac",
+            "doc": "This field is only necessary if \"action\" is sign.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "accesslevelhmac",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AHr": {
+            "caption": "EncryptedSeedHex",
+            "doc": "This field is only necessary if \"action\" is sign.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "encryptedseedhex",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AHs": {
+            "caption": "TxnHex",
+            "doc": "This field is only necessary if \"action\" is sign.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "txnhex",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AHt": {
+            "caption": "Action",
+            "doc": "login, signup, jwt or sign",
+            "editor": "DynamicValue",
+            "name": "action",
+            "rank": 0,
+            "value": "text"
+        },
+        "AIM": {
+            "caption": "Type of Txn",
+            "doc": "Type of transaction you want to sign.",
+            "editor": "Dropdown",
+            "name": "type_of_txn",
+            "optional": true,
+            "options": "Send DeSo,Update Profile,Follow,Create Post,Like,Send Diamond,Send Message,Create Comment,Create Repost,Create Post for NFT,Create NFT,Burn NFT,NFT Transfer,Accept NFT Transfer,Create Quote,Post Video,Transfer DAO,Post image+video",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

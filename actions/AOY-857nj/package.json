@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "elliptic": "latest",
+        "sha256": "latest"
+    }
+}

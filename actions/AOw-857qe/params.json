@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Decrypt",
+    "fields": {
+        "AOt": {
+            "caption": "EncryptedMessage",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "EncryptedMessage",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOu": {
+            "caption": "encryptionkey",
+            "editor": "DynamicValue",
+            "name": "encryptionkey",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AOq": {
+            "caption": "message",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

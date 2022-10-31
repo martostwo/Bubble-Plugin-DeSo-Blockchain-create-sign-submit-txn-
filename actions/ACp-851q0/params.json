@@ -1,0 +1,25 @@
+{
+    "category": "plugins",
+    "display": "DeSo: Get JWT with seedHex",
+    "fields": {
+        "ACq": {
+            "caption": "SeedHex",
+            "doc": "",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "SeedHex",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ACs": {
+            "caption": "signed_JWT",
+            "name": "signed_JWT",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

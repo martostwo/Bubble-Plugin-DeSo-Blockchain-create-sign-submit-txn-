@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "description": "This is a plugin to sign DeSo blockchain transactions locally without resorting to the Identity API. \n\nYou can also create posts, NFTs and other transactions on the DeSo blockchain. First you have to create the transaction, secondly sign it and finally upload it to the Blockchain.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1652182406432x621918726206839600/Social%20Profile%20Picture.jpg",
+    "license": "private",
+    "name": "DeSo Blockchain (create, sign & submit txn)",
+    "plugin_instructions": "To use this plugin you must implement it in your workflow.\n\nFor example, imagine that in step 1 of your workflow\nYou pass the 'encryptedSeedHex', hostname encryptionKey and 'transactionHex' parameters to the plugin.\n\nIn step 2 you can collect the signedTransactionHex that returns with the bubble tag: 'result of step 1 (SignTxn)' s signedTransactionHex '"
+}

@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "HexToNum",
+    "fields": {
+        "AQT": {
+            "caption": "HexString",
+            "editor": "DynamicValue",
+            "name": "HexString",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "API": {
+            "caption": "number",
+            "name": "number",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}

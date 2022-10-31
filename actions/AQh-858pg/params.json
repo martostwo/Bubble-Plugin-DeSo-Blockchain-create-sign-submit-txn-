@@ -1,0 +1,44 @@
+{
+    "category": "plugins",
+    "display": "Get Follows Clean List",
+    "fields": {
+        "AQi": {
+            "caption": "Username",
+            "editor": "DynamicValue",
+            "name": "Username",
+            "rank": 0,
+            "value": "text"
+        },
+        "AQj": {
+            "caption": "GetEntriesFollowingUsername",
+            "editor": "DynamicValue",
+            "name": "GetEntriesFollowingUsername",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AQk": {
+            "caption": "NumToFetch",
+            "editor": "DynamicValue",
+            "name": "NumToFetch",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AQl": {
+            "caption": "publicKeys",
+            "is_list": true,
+            "name": "publicKeys",
+            "rank": 0,
+            "value": "text"
+        },
+        "AQm": {
+            "caption": "NumFollowers",
+            "name": "NumFollowers",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

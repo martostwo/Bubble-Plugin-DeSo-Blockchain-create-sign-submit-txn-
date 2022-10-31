@@ -1,0 +1,32 @@
+{
+    "category": "plugins",
+    "display": "Deso: Sign Txn SeedHex",
+    "fields": {
+        "AOZ": {
+            "caption": "seedHex",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "seedHex",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOa": {
+            "caption": "transactionHex",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "transactionHex",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AOb": {
+            "caption": "signedTxn",
+            "name": "signedTxn",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

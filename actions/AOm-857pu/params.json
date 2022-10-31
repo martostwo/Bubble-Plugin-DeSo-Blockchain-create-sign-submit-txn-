@@ -1,0 +1,38 @@
+{
+    "category": "plugins",
+    "display": "Encrypt",
+    "fields": {
+        "AOn": {
+            "caption": "message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOo": {
+            "caption": "encryptionkey",
+            "editor": "DynamicValue",
+            "name": "encryptionkey",
+            "rank": 1,
+            "value": "text"
+        },
+        "AOp": {
+            "caption": "publicKey",
+            "editor": "DynamicValue",
+            "name": "publicKey",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AOq": {
+            "caption": "encrypted_message",
+            "name": "encrypted_message",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "ImageToBase64",
+    "fields": {
+        "AFn": {
+            "caption": "ImageURL",
+            "doc": "The image you want to encode in 'base64'.",
+            "editor": "DynamicValue",
+            "name": "ImageURL",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AFo": {
+            "caption": "ImageBase64",
+            "name": "imageBase64",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

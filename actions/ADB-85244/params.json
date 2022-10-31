@@ -1,0 +1,34 @@
+{
+    "category": "plugins",
+    "display": "Arweave: Upload Image",
+    "fields": {
+        "ADC": {
+            "caption": "KeyWallet",
+            "doc": "JSON object that contains the key of your Arweave wallet in order to pay the uploading.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "KeyWallet",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADD": {
+            "caption": "Image",
+            "doc": " The image you are going to upload to Arweave Blockchain. (If your direct url is: https://example.com, put: //example.com without https:)",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "Image",
+            "rank": 1,
+            "value": "image"
+        }
+    },
+    "return_value": {
+        "ADE": {
+            "caption": "AR_url",
+            "name": "AR_url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Upload video Cloudflare Deso",
+    "fields": {
+        "ALR": {
+            "caption": "videoUrl",
+            "doc": "Without 'https:'",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "videoUrl",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ALP": {
+            "caption": "videoID",
+            "name": "videoID",
+            "rank": 0,
+            "value": "text"
+        },
+        "ALQ": {
+            "caption": "videoURL",
+            "name": "videoURL",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

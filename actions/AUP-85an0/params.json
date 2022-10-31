@@ -1,0 +1,236 @@
+{
+    "category": "plugins",
+    "display": "Deso: Post",
+    "fields": {
+        "AUJ": {
+            "caption": "UpdaterPublicKey",
+            "editor": "DynamicValue",
+            "name": "UpdaterPublicKey",
+            "rank": 1,
+            "value": "text"
+        },
+        "AUK": {
+            "caption": "PostText",
+            "editor": "DynamicValue",
+            "name": "PostText",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AUM": {
+            "caption": "IsHidden",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "IsHidden",
+            "rank": 23,
+            "value": "boolean"
+        },
+        "AUN": {
+            "caption": "Node",
+            "default_val": "node.desonocode.com",
+            "doc": "Node to which you want to make the request.",
+            "editor": "DynamicValue",
+            "name": "Node",
+            "rank": 0,
+            "value": "text"
+        },
+        "AVX": {
+            "caption": "Repost & Quote Field",
+            "editor": "Label",
+            "name": "repost_&_quote_field",
+            "rank": 8
+        },
+        "AVY": {
+            "caption": "Comment Field",
+            "editor": "Label",
+            "name": "comment_field",
+            "rank": 6
+        },
+        "AVZ": {
+            "caption": "Body object",
+            "editor": "Label",
+            "name": "body",
+            "rank": 2
+        },
+        "AVa": {
+            "caption": "PostExtraData Fields",
+            "editor": "Label",
+            "name": "postextradata_fields",
+            "rank": 10
+        },
+        "AVb": {
+            "caption": "ImageURL",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "imageurl",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AVc": {
+            "caption": "CloudflareVideoURL",
+            "editor": "DynamicValue",
+            "name": "cloudflarevideourl",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AVd": {
+            "caption": "ParentStakeID",
+            "doc": "postHashHex",
+            "editor": "DynamicValue",
+            "name": "parentstakeid",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AVe": {
+            "caption": "RepostedPostHashHex",
+            "doc": "postHashHex",
+            "editor": "DynamicValue",
+            "name": "repostedposthashhex",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AVf": {
+            "caption": "Others",
+            "editor": "Label",
+            "name": "others",
+            "rank": 22
+        },
+        "AVg": {
+            "caption": "MinFeeRateNanosPerKB",
+            "default_val": 1000,
+            "editor": "DynamicValue",
+            "name": "minfeeratenanosperkb",
+            "rank": 24,
+            "value": "number"
+        },
+        "AVh": {
+            "caption": "EmbedVideoURL",
+            "editor": "DynamicValue",
+            "name": "embedvideourl",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AVi": {
+            "caption": "Language",
+            "default_val": "en-US",
+            "editor": "DynamicValue",
+            "name": "language",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        },
+        "AVj": {
+            "caption": "Node Info",
+            "default_val": "DesoNoCode",
+            "editor": "DynamicValue",
+            "name": "node_info",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "AVk": {
+            "caption": "Tag",
+            "editor": "DynamicValue",
+            "name": "tag",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "AVq": {
+            "caption": "BlogDeltaRtfFormat",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "blogdeltartfformat",
+            "optional": true,
+            "rank": 16,
+            "value": "text"
+        },
+        "AVr": {
+            "caption": "BlogPostIsPinned",
+            "default_val": "true",
+            "editor": "DynamicValue",
+            "name": "blogpostispinned",
+            "optional": true,
+            "options": "\"true\",\"false\"",
+            "rank": 17,
+            "value": "text"
+        },
+        "AVs": {
+            "caption": "BlogTitleSlug",
+            "editor": "DynamicValue",
+            "name": "blogtitleslug",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AVt": {
+            "caption": "CoverImage",
+            "editor": "DynamicValue",
+            "name": "coverimage",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        },
+        "AVu": {
+            "caption": "Description",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": true,
+            "rank": 20,
+            "value": "text"
+        },
+        "AVv": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "AVw": {
+            "caption": "Blog Fields",
+            "editor": "Label",
+            "name": "blog_fields",
+            "rank": 15,
+            "value": "text"
+        },
+        "AVx": {
+            "caption": "BlogContent",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "blogcontent",
+            "optional": true,
+            "rank": 26,
+            "value": "text"
+        },
+        "AVy": {
+            "caption": "Zirkels",
+            "editor": "Label",
+            "name": "zirkels",
+            "rank": 25
+        },
+        "AVz": {
+            "caption": "BlogPostURL",
+            "editor": "DynamicValue",
+            "name": "blogposturl",
+            "optional": true,
+            "rank": 27,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ARO": {
+            "caption": "TransactionHex",
+            "name": "TransactionHex",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

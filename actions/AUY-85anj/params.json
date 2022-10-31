@@ -1,0 +1,109 @@
+{
+    "category": "plugins",
+    "display": "Derived Keys",
+    "fields": {
+        "AUZ": {
+            "caption": "Expiration Days",
+            "editor": "DynamicValue",
+            "name": "expiration_days",
+            "rank": 1,
+            "value": "number"
+        },
+        "AUa": {
+            "caption": "Global DeSo Limit",
+            "editor": "DynamicValue",
+            "name": "global_deso_limit",
+            "rank": 2,
+            "value": "number"
+        },
+        "AUd": {
+            "caption": "Transaction Count Limit Map",
+            "editor": "key_value_list",
+            "name": "TransactionCountLimitMap",
+            "rank": 3,
+            "value": "number"
+        },
+        "AVL": {
+            "caption": "Publickey",
+            "editor": "DynamicValue",
+            "name": "publickey",
+            "rank": 0,
+            "value": "text"
+        },
+        "AWH": {
+            "caption": " Creator Limit Map",
+            "editor": "key_value_list",
+            "name": "CreatorLimitMap",
+            "rank": 6,
+            "value": "number"
+        },
+        "AWI": {
+            "caption": "Creator Coin Operation Limit Map",
+            "editor": "Label",
+            "name": "CreatorCoinOperationLimitMap",
+            "rank": 4,
+            "value": "number"
+        },
+        "AWJ": {
+            "caption": "Creator Publickey",
+            "doc": "Derived key is authorized to perform the following operations on this publickey's creator coin.",
+            "editor": "DynamicValue",
+            "name": "creator_publickey",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AWK": {
+            "caption": "DAO Coin Operation Limit Map",
+            "editor": "Label",
+            "name": "daocoinoperationlimitmap",
+            "rank": 7
+        },
+        "AWL": {
+            "caption": "DAO Publickey",
+            "doc": "Derived key is authorized to perform the following operations on this publickey's DAO coin.",
+            "editor": "DynamicValue",
+            "name": "dao_publickey",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AWM": {
+            "caption": "DAO Limit Map",
+            "editor": "key_value_list",
+            "name": "dao_limit_map",
+            "rank": 9,
+            "value": "number"
+        },
+        "AWN": {
+            "caption": "NFT Operation Limit Map",
+            "editor": "Label",
+            "name": "nftoperationlimitmap",
+            "rank": 10
+        },
+        "AWO": {
+            "caption": "NFT PostHashHex",
+            "editor": "DynamicValue",
+            "name": "nft_posthashhex",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AWP": {
+            "caption": "NFT Limit Map",
+            "editor": "key_value_list",
+            "name": "nft_limit_map",
+            "rank": 12,
+            "value": "number"
+        },
+        "AWQ": {
+            "caption": "Unlimited",
+            "default_val": false,
+            "doc": "check this box to get unlimited derived keys",
+            "editor": "Checkbox",
+            "name": "unlimited",
+            "rank": 13
+        }
+    },
+    "type": "client_side"
+}

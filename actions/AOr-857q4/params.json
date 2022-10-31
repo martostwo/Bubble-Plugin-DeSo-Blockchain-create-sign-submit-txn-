@@ -1,0 +1,14 @@
+{
+    "category": "plugins",
+    "display": "New Encryption Key",
+    "return_value": {
+        "AOs": {
+            "caption": "encryption_key",
+            "name": "encryption_key",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

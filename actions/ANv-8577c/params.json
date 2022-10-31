@@ -1,0 +1,30 @@
+{
+    "category": "plugins",
+    "display": "isVideoReady",
+    "fields": {
+        "ANw": {
+            "caption": "ID",
+            "editor": "DynamicValue",
+            "name": "ID",
+            "rank": 0,
+            "value": "text"
+        },
+        "AOP": {
+            "caption": "Size",
+            "editor": "DynamicValue",
+            "name": "Size",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AOQ": {
+            "caption": "time",
+            "name": "time",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,55 @@
+{
+    "category": "plugins",
+    "display": "DeSo Exchange",
+    "fields": {
+        "AQF": {
+            "caption": "Quantity",
+            "editor": "DynamicValue",
+            "name": "Quantity",
+            "rank": 0,
+            "value": "number"
+        },
+        "AQG": {
+            "caption": "Currency",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "Currency",
+            "options": "USD,BTC,ETH,DESO",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AQH": {
+            "caption": "DeSo",
+            "name": "DeSo",
+            "rank": 0,
+            "value": "number"
+        },
+        "AQI": {
+            "caption": "Nanos",
+            "name": "Nanos",
+            "rank": 1,
+            "value": "number"
+        },
+        "AQY": {
+            "caption": "BTC",
+            "name": "BTC",
+            "rank": 2,
+            "value": "number"
+        },
+        "AQZ": {
+            "caption": "USD",
+            "name": "USD",
+            "rank": 3,
+            "value": "number"
+        },
+        "AQa": {
+            "caption": "ETH",
+            "name": "ETH",
+            "rank": 4,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

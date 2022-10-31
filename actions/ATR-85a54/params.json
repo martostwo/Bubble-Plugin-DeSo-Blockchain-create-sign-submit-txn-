@@ -1,0 +1,14 @@
+{
+    "category": "plugins",
+    "display": "Generate BIP39 Mnemonic",
+    "return_value": {
+        "ATS": {
+            "caption": "mnemonic",
+            "name": "mnemonic",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "arweave": "^1.10.18",
+    "axios": "latest"
+  }
+}

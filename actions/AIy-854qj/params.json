@@ -1,0 +1,60 @@
+{
+    "category": "plugins",
+    "display": "NFT Monitoring",
+    "fields": {
+        "AIz": {
+            "caption": "serialNumber",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serialNumber",
+            "rank": 0,
+            "value": "number"
+        },
+        "AJA": {
+            "caption": "ownerApp",
+            "editor": "DynamicValue",
+            "name": "ownerApp",
+            "rank": 1,
+            "value": "text"
+        },
+        "AJB": {
+            "caption": "PostHashHex",
+            "editor": "DynamicValue",
+            "name": "PostHashHex",
+            "rank": 2,
+            "value": "text"
+        },
+        "AJC": {
+            "caption": "ReaderPublicKeyBase58Check",
+            "editor": "DynamicValue",
+            "name": "ReaderPublicKeyBase58Check",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AJD": {
+            "caption": "NFTsUserOwns",
+            "is_list": true,
+            "name": "NFTsUserOwns",
+            "rank": 0,
+            "value": "number"
+        },
+        "AJE": {
+            "caption": "newNFTOwners",
+            "is_list": true,
+            "name": "newOwners",
+            "rank": 1,
+            "value": "text"
+        },
+        "AKX": {
+            "caption": "serialNumberNewOwners",
+            "is_list": true,
+            "name": "serialNumberNewOwners",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
