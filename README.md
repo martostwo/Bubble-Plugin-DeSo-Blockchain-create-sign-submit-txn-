@@ -1,3 +1,5 @@
+![logo-192](https://user-images.githubusercontent.com/92114788/231530264-cd7b4953-7100-4a45-958e-465fdb0bb6d1.png)
+
 # Bubble.io Plugin for DeSo Blockchain.
 Here you can find code related to creating, signing, and broadcasting transactions on the [DeSo Blockchain](https://www.deso.com/). I created this plugin on bubble.io to simplify the work of my team for a few years working on Green Light Digital and projects like [desonocode.com](https://desonocode.com) or [zirkels.com](https://zirkels.com)
 
